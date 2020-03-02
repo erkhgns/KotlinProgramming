@@ -41,12 +41,21 @@ fun main(args: Array<String>) {
 //        print(c)
 //    }
 
-    val list = listOf("JAVA","KOTLIN","PYTHON")
-    for(i in list){
-        if(i.contains('A')){
-            continue
-        }
-        println(i)
+//    val list = listOf("JAVA","KOTLIN","PYTHON")
+//    for(i in list){
+//        if(i.contains('A')){
+//            continue
+//        }
+//        println(i)
+//    }
+
+    var sum: Double = 0.0
+
+    for(i in 100..100000){
+        sum+=i
     }
+    println(sum)
+
+
 
 }
